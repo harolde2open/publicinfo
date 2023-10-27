@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects>
   <project name="MorningProcess">
-    <version>1.2.2</version>
-    <filename>does not matter</filename>
+    <author>HGRM</author>
+    <version>1.2.1</version>
+    <date>10/26/2023</date>
   </project>
   <project name="LoadTracker">
     <version>1.0</version>
