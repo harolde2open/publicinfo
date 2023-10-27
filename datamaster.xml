@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects>
-  <project name="Morning Process">
+  <project name="MorningProcess">
     <version>1.2.1</version>
     <filename>does not matter</filename>
   </project>
-  <project name="Load Tracker">
+  <project name="LoadTracker">
     <version>1.0</version>
     <filename>does not matter</filename>
   </project>
