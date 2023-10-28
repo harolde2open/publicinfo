@@ -5,6 +5,11 @@
     <version>1.2.1</version>
     <date>10/26/2023</date>
   </project>
+  <project name="LaasReportingTool">
+    <author>HGRM</author>
+    <version>1.0.0</version>
+    <date>10/29/2023</date>
+  </project>
   <project name="LoadTracker">
     <version>1.0</version>
     <filename>does not matter</filename>
