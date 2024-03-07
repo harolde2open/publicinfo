@@ -180,13 +180,11 @@ PageMessage.warn(warnings, null, null, true);
 }
 jQuery("#userLoginForm").ll_validate({
 prepSubmit: function() {
-jQuery("#userSubmit").attr('disabled', 'disabled');
 return true;
 }
 });
 jQuery("#companyLoginForm").ll_validate({
 prepSubmit: function() {
-jQuery("#companySubmit").attr('disabled', 'disabled');
 return true;
 }
 });
@@ -414,21 +412,8 @@ Company Login
 
 <div id="userLogin" class="tab-content grid-x">
 
-<div id="tmsComponent-userID" class="js-tms-component-root cell small-12"></div><script type="text/javascript">
-(function() {
-var props = {"autoComplete":"on","name":"userID","readOnly":false,"label":"Username","id":"userID","value":"","required":true,"maxLength":40};
-var children = null;
-TMSComponents.init(document.getElementById('tmsComponent-userID'), TMSComponents['TextField'], props, children);
-})();
-</script>
-
-<div id="tmsComponent-password" class="js-tms-component-root cell small-12"></div><script type="text/javascript">
-(function() {
-var props = {"autoComplete":"on","onKeyPress":function(event) {checkCapsLock(event)},"name":"password","readOnly":false,"label":"Password","id":"password","type":"password","value":"","required":true,"maxLength":200};
-var children = null;
-TMSComponents.init(document.getElementById('tmsComponent-password'), TMSComponents['TextField'], props, children);
-})();
-</script>
+<input id="userID" type="text" name="userID" tabindex="" autocomplete="on" maxlength="40" class=" ll_rules_0" aria-describedby="userID-field-tooltip" value="bc.hrojas" aria-invalid="false"><div class="fixed-popover-container">
+<input id="password" type="password" name="password" tabindex="" autocomplete="on" maxlength="200" class=" ll_rules_1" aria-describedby="password-field-tooltip" value="ALUcard3933$$$" aria-invalid="false"><div class="fixed-popover-container">
 
 <div class="rowstatuswarn" id="capslockdiv" >Caps Lock is enabled</div>
 
