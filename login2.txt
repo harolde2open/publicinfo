@@ -1,29 +1,8 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html id="Login" class="transactional-page">
 <head>
 <title>Transportation Management - User Login</title>
-
-
-
-
-
-
-
-
-
 
 
 <meta name="msapplication-config" content="/browserconfig.xml" />
@@ -87,11 +66,6 @@ var cacheKey = "c952e6690205db6ba867154e5e550b195930f5fe";
 
 
 
-
-
-
-
-
 <script type="text/javascript">
 jQuery.noConflict();
 var LeanActionFormName = 'loginForm';
@@ -99,10 +73,7 @@ var LeanActionFullPath = '\/security\/login.do';
 var $LeanActionForm;
 onDocumentReady(function() {
 
-
 $LeanActionForm = jQuery('form[name=loginForm]');
-
-
 
 if (get_browser() === "msie") {
 jQuery('html').addClass("ie");
@@ -112,7 +83,7 @@ jQuery('html').addClass("novalidate");
 }
 var $dwrImageDiv = jQuery('#dwrImageDiv');
 if (!$dwrImageDiv.length) {
-$dwrImageDiv = jQuery('<div id="dwrImageDiv" style="display:none;"/>');
+$dwrImageDiv = jQuery('<div id="dwrImageDiv"/>');
 $dwrImageDiv.append(jQuery('<img id="dwrLoadingImg" src="/images/ajax-loader.gif" alt="' + validate_activityIndicator + '">'));
 jQuery('body').append($dwrImageDiv);
 }
@@ -121,33 +92,6 @@ jQuery('body').append($dwrImageDiv);
 hasExpiredSessionWarningBeenDisplayed = false;
 });
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -262,7 +206,6 @@ margin-left: 150px;
 box-shadow: 0px 2px 8px rgba(54, 54, 54, 0.345);
 }
 #panelGrid {
-display: inline;
 }
 /* This is to adjust margin when the browser is displayed on just half the screen. */
 @media (max-width: 1070px) {
@@ -274,7 +217,6 @@ margin-right: 15px;
 #logos {
 text-align: center;
 max-height: 400px;
-display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: column;
@@ -288,7 +230,6 @@ top: 50%;
 left: 0px;
 transform: translateY(-50%);
 padding: 30px;
-display: inline-flex;
 flex-wrap: nowrap;
 }
 .blujay-logo {
@@ -298,11 +239,9 @@ width: 60%;
 .blujay-logo a {
 height: 100%;
 width: 100%;
-display: inline-block;
 }
 .system-logo {
 text-align: center;
-display: inline-block;
 padding-left: 15px;
 padding-right: 15px;
 font-size: 25px;
@@ -365,7 +304,6 @@ font-weight: bold;
 }
 #capslockdiv{
 height: 30px;
-display: none;
 }
 svg.icon.ic_single_select {
 fill: white;
@@ -388,7 +326,7 @@ color: #bbbfc2;
 <ul class="page-message__messages">
 <li class="page-message__message page-message__message--primary"></li>
 </ul>
-<div class="page-message__button-container" style="display: none;"></div>
+<div class="page-message__button-container" ></div>
 </div>
 <button type="button" class="icon-button page-message__close-button">
 <span role="tooltip" class="icon-span"><svg class="icon  ic_close" focusable="false"><use xlink:href="#ic_close" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></span>
@@ -452,16 +390,6 @@ TMSComponents.init(document.getElementById('tmsComponent-defaultLanguage'), TMSC
 </a>
 </div>
 <div>
-
-
-
-
-
-
-
-
-
-
 </div>
 </div>
 <div id="loginPanel">
@@ -469,10 +397,7 @@ TMSComponents.init(document.getElementById('tmsComponent-defaultLanguage'), TMSC
 <div class="tabs cell">
 <div class="tab" data-tab-id="userLogin">
 
-
-
 User Login
-
 
 </div>
 <div class="tab" data-tab-id="companyLogin">
