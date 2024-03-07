@@ -26,7 +26,7 @@ PageMessage.success(success, null, null, true);
 
 
 <form name="loginForm" id="userLoginForm" method="post" action="https://na-app.tms.e2open.com/security/login.do" novalidate="novalidate">
-<input type="hidden" name="loginPageAction" value="">
+<input type="hidden" name="loginPageAction" value="login">
 <input type="hidden" name="lastAction" value="">
 <input type="hidden" name="SAML2failsafe" value="false">
 <input type="hidden" name="SAML2initURL" value="">
