@@ -31,8 +31,8 @@ PageMessage.success(success, null, null, true);
 <input type="hidden" name="SAML2failsafe" value="false">
 <input type="hidden" name="SAML2initURL" value="">
 <input type="hidden" name="bluPassPasswordAuth" value="false">
-<input id="userID" type="text" name="userID" tabindex="" autocomplete="on" maxlength="40" class=" ll_rules_0" aria-describedby="userID-field-tooltip" value="bc.hrojas" aria-invalid="false"><div class="fixed-popover-container">
-<input id="password" type="password" name="password" tabindex="" autocomplete="on" maxlength="200" class=" ll_rules_1" aria-describedby="password-field-tooltip" value="ALUcard3933$$$" aria-invalid="false"><div class="fixed-popover-container">
+<input id="userID" type="text" name="userID" tabindex="" autocomplete="on" maxlength="40" class=" ll_rules_0" aria-describedby="userID-field-tooltip" value="[username]" aria-invalid="false"><div class="fixed-popover-container">
+<input id="password" type="password" name="password" tabindex="" autocomplete="on" maxlength="200" class=" ll_rules_1" aria-describedby="password-field-tooltip" value="[password]" aria-invalid="false"><div class="fixed-popover-container">
 <input name="rememberMe" id="rememberMe" class="" type="checkbox" value="on">
 <button class="prominent" type="submit" onclick="useUserLogin()" id="userSubmit" title="">Login</button>
 </form>
