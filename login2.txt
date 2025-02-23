@@ -25,7 +25,7 @@ PageMessage.success(success, null, null, true);
 </script>
 
 
-<form name="loginForm" id="userLoginForm" method="post" action="https://orange-sandbox-tms-app.e2open.com/security/login.do" novalidate="novalidate">
+<form name="loginForm" id="userLoginForm" method="post" action="https://na-ro.tms.e2open.com/security/login.do" novalidate="novalidate">
 <input type="hidden" name="loginPageAction" value="login">
 <input type="hidden" name="lastAction" value="">
 <input type="hidden" name="SAML2failsafe" value="false">
